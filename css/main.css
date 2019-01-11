@@ -35,12 +35,10 @@ footer {
 
 figure { 
   display: block;
+  text-align: center;
   margin: 0 auto 0.55em;
 }
 
-figure figcaption {
-    text-align: center;
-}
 
 ul.posts { 
     margin: 20px auto 40px; 
