@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Random meetings and random walks"
+title: "Life, random meetings and random walks"
 date: 2019-01-09
 ---
 
