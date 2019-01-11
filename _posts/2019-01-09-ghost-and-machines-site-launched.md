@@ -6,7 +6,9 @@ date: 2019-01-09
 
 It's not too much of a stretch, I believe, to say that microscopically we recognize what's alive by looking at sets of molecules binding and unbinding in a coordinated and concerted manner. Examples abound: RNA polymerase starts off transcription by binding to DNA; trascription factors control the transcriptional rate by binding to DNA sequences; ribosomes synthesize proteins by binding to mRNA; amminoacids bind to tRNA providing the building blocks during protein synthesis; extra-cellular molecular are sensed by receptor proteins kickstarting a signalling cascades thank to which the cell adapts its metabolism and whatnot to the current environment and signalling cascades consist of binding and reaction events; proteins change function after some other protein binds to them; and so on and on, the list is endless really and the take-home message here is that any biological event is some kind of binding event microscopically.
 
-<img src="blog/img/2019-01-09-bindings.jpg" alt="bindings" width="200"/>
+<!-- <img src="blog/img/2019-01-09-bindings.jpg" alt="bindings" width="200"/> --> 
+
+![bindings](/blog/img/2019-01-09-bindings.jpg)
 
 Admittedly, I am using the concept of binding a little more loosely than real biologists would like. As far as I can see, binding usually means that two molecules stick to one another maintaining their identities as in the classic example of oxygen binding to hemoglobin. If two molecules wander around, meet and react, losing their identity because of a chemical transformation, this would hardly be called a binding event. Still, chemical reactions happen locally, ie, molecules have to 'stick' to one another first in some sense. Thinking about chemical reactions this way leads one straight to the [reaction-diffusive systems](<https://en.wikipedia.org/wiki/Reaction%E2%80%93diffusion_system>) formalism for instance , so I think there is some real merit about extending the concept of binding to any 'molecular meeting' so to speak, both pedagogically and for the purpose of mathematical modelling.
 	
