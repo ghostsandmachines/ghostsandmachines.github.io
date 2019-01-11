@@ -33,6 +33,14 @@ footer {
     font-size: .8em;
 }
 
+figure { 
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
