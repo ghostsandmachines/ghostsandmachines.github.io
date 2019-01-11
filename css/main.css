@@ -41,10 +41,3 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-} 
