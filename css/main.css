@@ -34,7 +34,7 @@ footer {
 }
 
 ul.posts { 
-    margin: 20px 45px 55px 40px; 
+    margin: 20px auto 40px; 
     font-size: 1.5em;
 }
 
@@ -42,10 +42,3 @@ ul.posts li {
     list-style: none;
 }
 
-<style type="text/css">
-.center
-{
-text-align:center;
-display:block;
-}
-</style>
