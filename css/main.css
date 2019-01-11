@@ -34,8 +34,8 @@ footer {
 }
 
 figure { 
-  display: inline-block;
-  margin: 0 auto 0.55em;
+  display: block;
+  margin: 0 auto 0.9em;
 }
 
 figure figcaption {
