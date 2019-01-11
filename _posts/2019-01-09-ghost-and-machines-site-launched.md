@@ -8,7 +8,7 @@ It's not too much of a stretch, I believe, to say that microscopically we recogn
 
 <!-- <img src="blog/img/2019-01-09-bindings.jpg" alt="bindings" width="200"/> --> 
 
-![bindings](/blog/img/2019-01-09-bindings.jpg)
+![bindings]({{ site.url }}/blog/img/2019-01-09-bindings.jpg)
 
 Admittedly, I am using the concept of binding a little more loosely than real biologists would like. As far as I can see, binding usually means that two molecules stick to one another maintaining their identities as in the classic example of oxygen binding to hemoglobin. If two molecules wander around, meet and react, losing their identity because of a chemical transformation, this would hardly be called a binding event. Still, chemical reactions happen locally, ie, molecules have to 'stick' to one another first in some sense. Thinking about chemical reactions this way leads one straight to the [reaction-diffusive systems](<https://en.wikipedia.org/wiki/Reaction%E2%80%93diffusion_system>) formalism for instance , so I think there is some real merit about extending the concept of binding to any 'molecular meeting' so to speak, both pedagogically and for the purpose of mathematical modelling.
 	
