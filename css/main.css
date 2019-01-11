@@ -34,7 +34,7 @@ footer {
 }
 
 figure { 
-  display: block;
+  display: inline-block;
   margin: 0 auto 0.55em;
 }
 
