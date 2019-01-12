@@ -25,3 +25,89 @@ $$
 P(\Delta t > s+u) = P(\Delta t > s) P(\Delta t > u)
 $$
 
+which is a functional equation for an exponential. Therefore:
+
+$$
+P(\Delta t ) = \frac{1}{\tau} \exp \left (-\frac{t}{\tau} \right)
+$$
+
+which means that considering the process in real time adds one parameter $\tau$. We can use this equation for translating results obtained simulating trajectories on the abstract lattice to physical results. For instance consider a trajectory $N$-steps long $\{\mathbf{n_0}, \mathbf{n_1}, .., \mathbf{n_N}\}$ generated with the procedure described before. How much real time has passed? With $N$-steps, the total time elapsed is:
+
+$$
+T_N = \sum_{k=0}^{N-1} \Delta t_k
+$$
+
+Each $\Delta t_k$ is independent from one another, so for $N$ big enough we can apply the central limit theorem to approximate $P(T|N)$. In this case, though, the distribution of the sum of independent exponential random variable is known and we can write it exactly:
+
+$$
+P(T|N) = \frac{1}{\Gamma(N) \tau^N} \tau^{N-1} \exp \left(- \frac{T}{\tau} \right)
+$$ 
+
+Therefore, if starting from position $\mathbf{n}$, we studied say, the distribution $P(N)$ of the number of steps $N$ it takes to come back to $\mathbf{n}$, ie, a recurrence time, we can obtain the corresponding distribution in real time
+
+$$
+P(T)= \sum_N P(T|N) P(N) 
+$$ 
+
+Furthermore by analyzing $P(T|N)$ wa can easily obtain:
+
+$$
+\langle T(N) \rangle = N \tau
+$$ 
+
+$$
+\mathrm{Var}_T (N)  = N \tau^2
+$$ 
+
+$$
+\frac{\sigma_T(N) }{\langle T(N) \rangle} = \frac{1}{\sqrt{N}}
+$$ 
+
+and therefore for $N$ big enough, the map $N$-$T$ is almost deterministic and it's given by $T(N) = N \tau$.
+
+From discrete to continuous space
+---------------------------------
+
+How does one switch from a lattice model to continuous space? The trick to understand this is to interpret the statement "The particle is at position $\mathbf{n}$" in the lattice model context as "The particle is in a small volume centered around position $\mathbf{n}$". This is perfectly equivalent mathematically, but it helps enormously to switch properly from discrete to continuous space.
+
+Now imagine knowing the full continuous space probability density $P(\mathbf{x}, t)$. Then, the probability of being in a certain volume $V_a$ is 
+
+$$
+P(\mathbf{x} \in V_a[\mathbf{n}(\mathbf{x})])= \int_{V_a} P(\mathbf{x}, t) d\mathbf{x}
+$$
+
+where $V_a[\mathbf{n}(\mathbf{x})]$ is the volume centered around the discrete position that is closest to $\mathbf{x}$. $a$ is a linear scale determining the size of the volume, for square lattices $V_a = a^d$,  and it is in principle arbitrary. Now choose $a$ such that $P(\mathbf{x}, t)$ is practically uniform over the volume $V_a$. Then
+
+$$
+P(\mathbf{x} \in V_a[\mathbf{n}(\mathbf{x})])= P(\mathbf{x}, t) \cdot V_a
+$$
+
+or
+
+$$
+P(\mathbf{x}, t) = P(\mathbf{x} \in V_a[\mathbf{n}(\mathbf{x})]) \cdot \frac{1}{V_a}
+$$
+
+It is not difficult to see that the length scale $a$ over which $P(\mathbf{x}, t)$ is uniform should be related to the linear size of the particle in question. We often idealize particles as infinitely small points, but of course they are not and large biomolecules like proteins are much bigger than the molecules in the solvent they are random-walking about.
+
+These equations define the connection between discrete models in space to continuous models.
+
+Finally, we note also that $\tau$ considered in the previous section is the typical timescale necessary for the molecules to move through a distance roughly as long as its size. This is really the parameter that contains a lot of physics, from the temperature to the viscosity of the medium. It is quite simple to see how it relates to the diffusion constant, which is the usual parameter people speak about when considering brownian motion. By the well-known equation
+
+$$
+\left \langle [\mathbf{x(t)}-\mathbf{x_0}]^2 \right \rangle = D t
+$$
+
+then, we plug in the definition of $\tau$ given above
+
+$$
+a^2 = D \tau
+$$
+
+and therefore
+
+$$
+D = \frac{a^2}{\tau}
+$$
+
+Characterizing $D$ or $\tau$ in terms of other physical parameters is perfectly equivalent. Such characterization would deserve its own discussion, at any rate, the Einstein relation and its various forms do exactly that.
