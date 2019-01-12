@@ -9,4 +9,5 @@ I am going to start with the simplest random walk model, brownian motion. Browni
 {% raw %}
   $$a^2 + b^2 = c^2$$ --> note that all equations between these tags will not need escaping! 
  {% endraw %}
- 
+
+ $\pi^2 + \exp (i \theta)$
