@@ -46,10 +46,10 @@ $$
 Therefore, if starting from position $\mathbf{n}$, we studied say, the distribution $P(N)$ of the number of steps $N$ it takes to come back to $\mathbf{n}$, ie, a recurrence time, we can obtain the corresponding distribution in real time
 
 $$
-P(T)= \sum_N P(T|N) P(N) 
+P(T)= \sum_N P(T | N) P(N) 
 $$ 
 
-Furthermore by analyzing $P(T|N)$ wa can easily obtain:
+Furthermore by analyzing $P(T | N)$ we can easily obtain:
 
 $$
 \langle T(N) \rangle = N \tau
