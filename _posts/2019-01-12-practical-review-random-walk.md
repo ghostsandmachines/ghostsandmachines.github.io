@@ -71,7 +71,7 @@ From discrete to continuous space
 How does one switch from a lattice model to continuous space? The trick to understand this is to interpret the statement "The particle is at position $\mathbf{n}$" in the lattice model context as "The particle is in a small volume centered around position $\mathbf{n}$". This is perfectly equivalent mathematically, but it helps enormously to switch properly from discrete to continuous space.
 
 <figure>
-<img src="{{ site.url }}/blog/img/random_walk.pdf" alt="bindings">
+<img src="{{ site.url }}/blog/img/random_walk.png" alt="discrete_random_walk">
 <figcaption><b>Fig.1 </b> Two different ways of picturing lattice models of random walks. In the first picture, the main observable is the probability that the particle is located on a specific vertex of the lattice. In the second picture, the main observable is the probability that the particle is located in a specific little volume. The two ways of looking at such models are formally equivalent, but the latter one gives better intuition about the physics behind the discretization. In particular, the second representation makes it clearer that the discretization process is arbitrary, as the model is well-defined for any $a$, but also also that there is a smart choice of $a$, ie, roughly the linear size of the particle we are considering. </figcaption>
 </figure>
 
