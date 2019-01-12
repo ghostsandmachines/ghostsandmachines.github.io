@@ -14,6 +14,7 @@ as the probability of reaching, or hitting, position $\mathbf{x}$ for the first 
 
 <video width="320" height="240" controls>
   <source src="random_walk_video.mp4" type="video/mp4">
+  	Your browser does not support the video tag.
 </video>
 
 In addition to first-passage times, we can consider recurrence times and define
