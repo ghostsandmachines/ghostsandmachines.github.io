@@ -38,6 +38,11 @@ figure {
   text-align: center;
 }
 
+video { 
+  display: block;
+  text-align: center;
+}
+
 
 ul.posts { 
     margin: 20px auto 40px; 
