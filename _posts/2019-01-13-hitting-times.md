@@ -55,7 +55,7 @@ as for instance, it could that one particle goes through position $\mathbf{x}$ b
 Finally it's sometimes useful to think of first-passage time distribution as
 
 $$
-\Pi_1(t, \mathbf{x_0}, \mathbf{x}) = \frac{\text{\# of trajectories reaching x in t steps}}{\text{\# of possible trajectories t-steps long}}
+\Pi_1(t, \mathbf{x_0}, \mathbf{x}) = \frac{\text{# of trajectories reaching x in t steps}}{\text{# of possible trajectories t-steps long}}
 $$
 
 as it allows to make hypothesis on $\Pi$ based on our intuition about the number of trajectories.
