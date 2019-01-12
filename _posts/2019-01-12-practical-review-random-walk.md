@@ -37,7 +37,7 @@ $$
 T_N = \sum_{k=0}^{N-1} \Delta t_k
 $$
 
-Each $\Delta t_k$ is independent from one another, so for $N$ big enough we can apply the central limit theorem to approximate $P(T|N)$. In this case, though, the distribution of the sum of independent exponential random variable is known and we can write it exactly:
+<p>Each $\Delta t_k$ is independent from one another, so for $N$ big enough we can apply the central limit theorem to approximate $P(T|N)$. In this case, though, the distribution of the sum of independent exponential random variable is known and we can write it exactly:</p>
 
 $$
 P(T|N) = \frac{1}{\Gamma(N) \tau^N} \tau^{N-1} \exp \left(- \frac{T}{\tau} \right)
@@ -49,7 +49,7 @@ $$
 P(T)= \sum_N P(T|N) P(N)
 $$ 
 
-Furthermore by analyzing $P(T|N)$ we can easily obtain:
+<p>Furthermore by analyzing $P(T|N)$ we can easily obtain:</p>
 
 $$
 \langle T(N) \rangle = N \tau
