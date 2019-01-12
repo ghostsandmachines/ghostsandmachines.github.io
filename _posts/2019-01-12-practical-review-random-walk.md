@@ -14,6 +14,7 @@ From discrete to continuous time
 --------------------------------
 
 How do we add real time to the model? Well, physical time here really enters only in how long we have to wait to transit from one state to the next. The object $\{\mathbf{n_0}, \mathbf{n_1}, .., \mathbf{n_N}\}$ makes sense with real time as well, we just follow the particle and annotate the first $N$-states it visits. On the other hand, specifying the whole trajectory requires specifying the holding times as well and consequently the full trajectory is now given by 
+
 $$\{\mathbf{n_0}, \Delta t_1; \mathbf{n_1}, \Delta t_2; .., \mathbf{n_{N-1}}, \Delta t_{N}; \mathbf{n_N}\}$$
 
 with $\Delta t_k = t_{k+1} - t_{k}$. Now, $\Delta t_k$ is a random variable as well and it indicates how long the particle remains in the state or how long it takes for the particle to jump away from the state. Translational symmetry implies that $\Delta t$ is extracted from the same probability distribution, no matter what the current state is. 
