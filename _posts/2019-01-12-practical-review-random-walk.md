@@ -12,6 +12,4 @@ I am going to start with the simplest random walk model, brownian motion. Browni
 
  $\pi^2 + \exp (i \theta)$
 
- $$
-\pi^2 + \exp (i \theta)
- $$
+ $$ \pi^2 + \exp (i \theta) $$
