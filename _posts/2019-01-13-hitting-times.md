@@ -12,7 +12,7 @@ $$
 
 as the probability of reaching, or hitting, position $\mathbf{x}$ for the first time at time $t$ starting from position $\mathbf{x_0}$. This time $t$ is also called called first-passage time. This is a very different object from $P(t, \mathbf{x_0}, \mathbf{x})$ the probability of being at position $\mathbf{x}$ at time $t$ starting from position $\mathbf{x_0}$. First of all, time is the random variable in the former, position in the latter. Second of all, being at position $\mathbf{x}$ at time $t$ does not mean that the particle couldn't have been in $\mathbf{x}$ at a previous time, but this is precisely what we require with $\Pi_1(t, \mathbf{x_0}, \mathbf{x})$. It's a much more stringent condition on the trajectories that allows us to realize the desired event.
 
-<video width="500" height="375" controls>
+<video class='center' width="500" height="375" controls>
   <source src="{{ site.url }}/blog/img/random_walk_video.mp4" type="video/mp4">
 </video>
 
