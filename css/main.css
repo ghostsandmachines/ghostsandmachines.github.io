@@ -38,6 +38,11 @@ figure {
   text-align: center;
 }
 
+video {
+display: block;
+margin: 0 auto;
+}
+
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
@@ -46,5 +51,3 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-
-.center { margin: 0 auto; width: 400px; }
