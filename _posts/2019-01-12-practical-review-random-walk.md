@@ -40,7 +40,7 @@ $$
 <p>Each $\Delta t_k$ is independent from one another, so for $N$ big enough we can apply the central limit theorem to approximate $P(T|N)$. In this case, though, the distribution of the sum of independent exponential random variable is known and we can write it exactly:</p>
 
 $$
-P(T|N) = \frac{1}{\Gamma(N) \tau^N} \tau^{N-1} \exp \left(- \frac{T}{\tau} \right)
+P(T|N) = \frac{1}{\Gamma(N) \tau^N} \t^{N-1} \exp \left(- \frac{T}{\tau} \right)
 $$ 
 
 Therefore, if starting from position $\mathbf{n}$, we studied say, the distribution $P(N)$ of the number of steps $N$ it takes to come back to $\mathbf{n}$, ie, a recurrence time, we can obtain the corresponding distribution in real time
