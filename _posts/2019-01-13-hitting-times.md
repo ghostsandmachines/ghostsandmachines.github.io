@@ -28,7 +28,7 @@ $$
 \Omega(t, \mathbf{x})  = \sum_{\mathbf{x'} \in B(\mathbf{x})} \Pi(t, \mathbf{x'}, \mathbf{x})
 $$
 
-so first-passage times distributions encode also the recurrence time distribution.
+so the first-passage time distribution encode also the recurrence time distribution.
 
 Beyond first-passage times, we can consider second-passage times, third-passage times and so on, in the form of $\Pi_2(t, \mathbf{x_0}, \mathbf{x})$, $\Pi_3(t, \mathbf{x_0}, \mathbf{x})$, .. More generally 
 
