@@ -18,3 +18,10 @@ How do we add real time to the model? Well, physical time here really enters onl
 $$\{\mathbf{n_0}, \Delta t_1; \mathbf{n_1}, \Delta t_2; .., \mathbf{n_{N-1}}, \Delta t_{N}; \mathbf{n_N}\}$$
 
 with $\Delta t_k = t_{k+1} - t_{k}$. Now, $\Delta t_k$ is a random variable as well and it indicates how long the particle remains in the state or how long it takes for the particle to jump away from the state. Translational symmetry implies that $\Delta t$ is extracted from the same probability distribution, no matter what the current state is. 
+
+What is this probability distribution? This is slightly less obvious. In principle you might think that any probability distribution is possible and mathematically that is probably true. In practice a large class of systems is described by the same probability distribution. To see this, imagine you are looking at the particle in some position on the lattice and you are waiting for jump. Imagine you have already waited for a time $\Delta t = s$. Does the probability distribution for waiting time change? Do you expect the particle to jump more quickly it has already stayed for a time $s$ in the same position? Surely not, if the events causing the jumps are independent from one another. This is what happens if you have imagine the collisions of the small fluid-particles with the particle we are looking at. The probabiliy of causing net motion in a direction at time $t$ does not depend on whether or not a net motion was caused at time $t-dt$, in the same way that with a fair coin the probability of having tails does not depend on whether you've had tails before. Translating mathematically this argument gives:
+
+$$
+P(\Delta t > s+u) = P(\Delta t > s) P(\Delta t > u)
+$$
+
