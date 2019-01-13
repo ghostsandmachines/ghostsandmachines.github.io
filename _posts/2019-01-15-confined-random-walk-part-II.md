@@ -1,7 +1,7 @@
 
 ---
 layout: post
-title: "Confined random walk, Part II Hitting Times"
+title: "Confined random walk, Part II, Hitting Times"
 date: 2019-01-14
 ---
 
