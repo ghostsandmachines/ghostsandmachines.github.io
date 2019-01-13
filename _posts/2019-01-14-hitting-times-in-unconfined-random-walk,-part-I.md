@@ -117,7 +117,7 @@ $$
 Inverting the second term is not exactly a piece of cake, but it's a fairly known Laplace transform, so at worst you can just look it up on some mathematical table. At any rate, we finally obtain the surviving probability:
 
 $$
-\int_0^{\infty} P(x, x_0, t) dx = erf \left( \frac{x_0}{\sqrt{4Dt}} \right)
+\int_0^{\infty} P(x, x_0, t) dx = \DeclareMathOperator{\erf}{erf}\erf \left( \frac{x_0}{\sqrt{4Dt}} \right)
 $$
 
 with $erf$ being the error function you find studying gaussian statistics. Finally we change sign and derive this expression to obtain the distribution of hitting times:
