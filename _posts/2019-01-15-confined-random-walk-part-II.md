@@ -29,5 +29,5 @@ In figure $2$ we show the way $\tau$ scales with the linear size $L$ of the latt
 
 <figure>
 <img src="{{ site.url }}/blog/img/tau_vs_L_fixed_distance.png" width="60%" alt="hitting_times">
-<figcaption><b>Fig.1 Mean hitting time in $L \times L$ discrete lattices.</b> We have used an initial position $\mathbf{x_0} = (10,10)$ and target $\mathbf{x} = (5,5)$. The statistics is computed out of $10^3$ simulated hitting times for each $L$. The plot shows the quadratic scaling of the mean hitting time with the linear size $L$ of the lattice.</figcaption>
+<figcaption><b>Fig.2 Mean hitting time in $L \times L$ discrete lattices.</b> We have used an initial position $\mathbf{x_0} = (10,10)$ and target $\mathbf{x} = (5,5)$. The statistics is computed out of $10^3$ simulated hitting times for each $L$. The plot shows the quadratic scaling of the mean hitting time with the linear size $L$ of the lattice.</figcaption>
 </figure>
