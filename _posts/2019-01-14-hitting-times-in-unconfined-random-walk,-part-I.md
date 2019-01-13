@@ -120,7 +120,7 @@ $$
 \int_0^{\infty} P(x, x_0, t) dx = \DeclareMathOperator{\erf}{erf}\erf \left( \frac{x_0}{\sqrt{4Dt}} \right)
 $$
 
-with $erf$ being the error function you find studying gaussian statistics. Finally we change sign and derive this expression to obtain the distribution of hitting times:
+with $\DeclareMathOperator{\erf}{erf}\erf$ being the error function you find studying gaussian statistics. Finally we change sign and derive this expression to obtain the distribution of hitting times:
 
 $$
 \Pi(t, x_0) = \frac{x_0}{\sqrt{4 \pi Dt^3}} \exp \left( -\frac{x_0^2}{\sqrt{4Dt}} \right)
