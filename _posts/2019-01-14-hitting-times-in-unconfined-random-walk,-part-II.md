@@ -59,7 +59,7 @@ with $r > a$ implicitly. If $D \leq 2 $ one obtains easily that $\Pi_{\infty}(r)
 
 $$
 \Pi_{\infty}(r) = \cases{
-0 & D\ge 2 \cr
+0 & D $\leq 2$ \cr
 \left ( \frac{a}{r} \right)^{D-2} & D > 2 \cr
 }
 $$
