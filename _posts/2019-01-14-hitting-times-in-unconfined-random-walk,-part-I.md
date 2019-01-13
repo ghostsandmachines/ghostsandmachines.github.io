@@ -18,6 +18,13 @@ $$
 in order to understand the first-passage time problem is that $P(\mathbf{x}, t)$ gives the probability of the particle being in position $\mathbf{x}$ at time $t$ without any constraint on what happened before, ie, the particle might have hit position $\mathbf{x}$ many times before $t$ as well. To get around this problem, the idea is to add specific boundary conditions to the diffusion equation:
 
 $$
+\eqalignno{
+\frac{\partial}{\partial t}P(\mathbf{x}, t) &= D \Delta_{\mathbf{x}}P(\mathbf{x}, t)  \cr
+P(\mathbf{x}, t) &= 0 \quad \forall \mathbf{x} \in \partial \omega \cr
+}
+$$
+
+$$
 \frac{\partial}{\partial t}P(\mathbf{x}, t) = D \Delta_{\mathbf{x}}P(\mathbf{x}, t) 
 $$
 
