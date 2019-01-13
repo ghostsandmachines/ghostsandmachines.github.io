@@ -1,7 +1,6 @@
-
 ---
 layout: post
-title: "Hitting Times in Unconfined Random Walk, Part I"
+title: "Hitting times in unconfined random walk, Part I"
 date: 2019-01-14
 ---
 
