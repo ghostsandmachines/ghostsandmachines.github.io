@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Confined random walk, Part I Diffusion Equation"
+title: "Confined random walk, Part I, Diffusion Equation"
 date: 2019-01-14
 ---
 
