@@ -8,7 +8,7 @@ We now proceed to study computationally the hitting time in a confined random wa
 
 <figure>
 <img src="{{ site.url }}/blog/img/hitting_times_all_data_fixed_distance.png" width="60%" alt="hitting_times">
-<figcaption><b>Fig.1 Mean hitting time in $L \times L$ discrete lattices.</b> We have used an initial position $\mathbf{x_0} = (10,10)$ and target $\mathbf{x} = (5,5)$. The statistics is computed out of $10^3$ simulated hitting times for each $L$. The plot shows the quadratic scaling of the mean hitting time with the linear size $L$ of the lattice.</figcaption>
+<figcaption><b>Fig.1 The distribution of hitting times in a $L \times L$ discrete lattice.</b> We have used $L=20$ and the hitting time from initial position $\mathbf{x_0} = (10,10)$ and target $\mathbf{x} = (5,5)$. The statistics is computed out of $10^5$ simulated hitting times. Contrary to unconfined random walk, the hitting times are distributed exponentially and show a precise timescale indicated in the legend.</figcaption>
 </figure>
 
 From 
