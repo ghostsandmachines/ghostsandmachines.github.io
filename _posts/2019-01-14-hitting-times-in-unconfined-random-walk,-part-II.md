@@ -15,7 +15,7 @@ $$
 \Pi(t, \mathbf{x_0}, \mathbf{x})  = \sum_{\mathbf{x'} \in B(\mathbf{x_0})} \frac{1}{2d} \cdot \Pi(t-1, \mathbf{x'}, \mathbf{x})
 $$
 
-What we've done here is we've written the hitting time probability as the probability of making the first step in a specific neighbour of $\mathbf{x_0}$ times the probability of hitting $\mathbf{x}$ in $t-1$ steps after that. Spatial homogeneity and isotropy make for a particularly easy equation in this case, but the concept in general. In order to find out information about the form of hitting times distribution or absorbing states probabilities, think about the way these probabilities change when the initial condition changes and you will find precise constraint on your probability function.
+What we've done here is we've written the hitting time probability as the probability of making the first step in a specific neighbour of $\mathbf{x_0}$ times the probability of hitting $\mathbf{x}$ in $t-1$ steps after that. Spatial homogeneity and isotropy make for a particularly easy equation in this case, but the concept in general. In order to find out information about the form of hitting times distribution or absorbing states probabilities, think about the way these probabilities change when the initial condition changes and you will find precise constraint on your probability function by considering recurrence relations.
 
 Consider first the case $t \rightarrow \infty$ as it's one of the main differences with the confined random walk and it's also easier to solve, as there isn't any time difference anymore in the two sides of the equation. What does it mean to hit our location at infinity? It means NOT hitting the location, we are going to compute the probability of never hitting $\mathbf{x}$. Obviously this is possible only if the particle can diffuse to infinity, which is not true for finite boxes. We are going to re-write the equation in the following way:
 
@@ -67,7 +67,7 @@ $$
 The case $D \leq 2$ deserves some further discussion. In 1-d this is a well-known result, in fact, as the problem is formally equivalent to the gambler's ruin problem with a fair coin. Imagine the position on the $x$-axis represent your current wealth. Start from an arbitrary position, ie, some arbitrary wealth. At each toss, you can gain a dollar or lose a dollar with a probability $\frac{1}{2}$. What is the probability of eventually reaching $0$, ie, the probability of eventually going broke? This is $1$, no matter your initial wealth and we proved this result above, albeit a bit more tortuously than normal. In 2-d, I admit that I don't have a good intuition for this result. I can start muttering about topology and say that apparently the space of possible trajectories doesn't grow fast enough with time to compensate for how fast the particle explores the lattice, but the results still feels counterintuitive to me. If you have a convincing easy explanation, please let me know.
 \bigskip
 
-Let us now consider the problem with time. Actually, we can repeat the same steps following equation \ref{eqn:hitpdf}, making time continuous as well and obtain:
+Let us now consider the problem with time. Actually, we can repeat the same steps following the starting recurrence relation, making time continuous as well and obtain:
 
 $$
 \frac{\partial}{\partial t}\Pi(t, r)  = \frac{a^2}{\tau} \Delta_{\mathbf{r}}\Pi(t, r) = D \Delta_{\mathbf{r}}\Pi(t, r)
