@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Confined random walk, Part II, Hitting Times"
-date: 2019-01-14
+date: 2019-01-15
 ---
 
 We now proceed to study computationally the hitting time in a confined random walk. First of all, we ask the shape of the hitting times distribution. To this end, we consider a simple discrete $L \times L$ lattice, start from an initial position $\mathbf{x_0}$, run the program until the particle hits the target $\mathbf{x}$ and record the hitting time. The results in figure $1$ show an exponential distribution, a rather different result from unconfined random walk. Could we have expected this result somehow?
