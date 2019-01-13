@@ -59,8 +59,8 @@ with $r > a$ implicitly. If $D \leq 2 $ one obtains easily that $\Pi_{\infty}(r)
 
 $$
 \Pi_{\infty}(r) = \cases{
-0 & D \leq 2 :\\ 
-\left ( \frac{a}{r} \right)^{D-2} & D > 2 :\\ 
+0 & D \leq 2 \cr
+\left ( \frac{a}{r} \right)^{D-2} & D > 2 \cr
 }
 $$
 
@@ -96,4 +96,4 @@ $$
 $$
 
 
-and therefore we have to solve the spectrum of the Laplace operator in the case of spherical symmetry. Note that we look for negative eigenvalues only in order to avoid blow-ups in time which are forbidden by normalization. We know from the previous section, though, that heavy-tails are to be expected in the hitting time distribution and it is not quite clear how they would come about from a superposition of exponentials. I plan on clearing up some of this confusion, but now I want to move on to random walk in confined spaces.
+and therefore we have to solve the spectrum of the Laplace operator in the case of spherical symmetry. Note that we look for negative eigenvalues only in order to avoid blow-ups in time which are forbidden by normalization. We know from the previous section, though, that heavy-tails are to be expected in the hitting times distribution and it is not quite clear how they would come about from a superposition of exponentials. I plan on clearing up some of this confusion, but now I want to move on to random walk in confined spaces.
