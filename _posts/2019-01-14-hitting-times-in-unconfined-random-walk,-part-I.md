@@ -44,7 +44,7 @@ In this problem the particle is confined to diffuse only on the positive $x$-axi
 
 $$
 \eqalignno{
-\frac{\partial}{\partial t}P(x, t)  &= D \frac{\partial^2}{\partial x^2}P(x, t) \\
+\frac{\partial}{\partial t}P(x, t)  &= D \frac{\partial^2}{\partial x^2}P(x, t) \cr
 P(0, t) &= 0 \\
 P(x, 0) &= \delta(x-x_0)
 }
@@ -54,7 +54,7 @@ We encode the initial condition with the use of dirac deltas
 
 $$
 \eqalignno{
-\frac{\partial}{\partial t}P(x, t)  - D \frac{\partial^2}{\partial x^2}P(x, t) &= \delta(t)\delta(x-x_0) \\
+\frac{\partial}{\partial t}P(x, t) &= D \frac{\partial^2}{\partial x^2}P(x, t) + \delta(t)\delta(x-x_0)\cr
 P(0, t) &= 0 
 }
 $$
