@@ -4,7 +4,7 @@ title: "Hitting times in unconfined random walk, Part II"
 date: 2019-01-14
 ---
 
-The purpose of this post is to derive a differential equation directly for the hitting times distribution, skipping the steps devoted to solving the diffusion equation with various absorbing conditions. Along the way, we derive an expression for the probability of a particle hitting any specified target in the limit $t \rightarrox \infty$. It turns out the behavior of this probability is highly dependent on the dimensionality of the space.
+The purpose of this post is to derive a differential equation directly for the hitting times distribution, skipping the steps devoted to solving the diffusion equation with various absorbing conditions. Along the way, we derive an expression for the probability of a particle hitting any specified target in the limit $t \rightarrow \infty$. It turns out the behavior of this probability is highly dependent on the dimensionality of the space.
 
 A differential equation for the distribution of hitting times
 -------------------------------------------------------------
