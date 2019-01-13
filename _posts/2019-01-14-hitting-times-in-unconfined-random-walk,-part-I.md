@@ -18,11 +18,11 @@ $$
 in order to understand the first-passage time problem is that $P(\mathbf{x}, t)$ gives the probability of the particle being in position $\mathbf{x}$ at time $t$ without any constraint on what happened before, ie, the particle might have hit position $\mathbf{x}$ many times before $t$ as well. To get around this problem, the idea is to add specific boundary conditions to the diffusion equation:
 
 $$
-\frac{\partial}{\partial t}P(\mathbf{x}, t) & = D \Delta_{\mathbf{x}}P(\mathbf{x}, t) 
+\frac{\partial}{\partial t}P(\mathbf{x}, t) = D \Delta_{\mathbf{x}}P(\mathbf{x}, t) 
 $$
 
 $$
-P(\mathbf{x}, t) & =  0 \quad \forall \mathbf{x} \in \partial \omega
+P(\mathbf{x}, t) =  0 \quad \forall \mathbf{x} \in \partial \omega
 $$
 
 with $\partial \omega$ being the surface of a specified volume $\omega$. This surface is an absorbing barrier: in this problem, whenever the particle touches the surface, it gets absorbed out of space in which it is moving about. At any time $t$ the particle is either in a position $\mathbf{x}$ out of the absorbing volume or it has been absorbed by the barrier:
@@ -121,7 +121,7 @@ $$
 \int_0^{\infty} P(x, x_0, t) dx = erf \left( \frac{x_0}{\sqrt{4Dt}} \right)
 $$
 
-with $\erf$ being the error function you find studying gaussian statistics. Finally we change sign and derive this expression to obtain the distribution of hitting times:
+with $erf$ being the error function you find studying gaussian statistics. Finally we change sign and derive this expression to obtain the distribution of hitting times:
 
 $$
 \Pi(t, x_0) = \frac{x_0}{\sqrt{4 \pi Dt^3}} \exp \left( -\frac{x_0^2}{\sqrt{4Dt}} \right)
