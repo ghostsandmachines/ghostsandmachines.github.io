@@ -65,7 +65,6 @@ $$
 $$
 
 The case $D \leq 2$ deserves some further discussion. In 1-d this is a well-known result, in fact, as the problem is formally equivalent to the gambler's ruin problem with a fair coin. Imagine the position on the $x$-axis represent your current wealth. Start from an arbitrary position, ie, some arbitrary wealth. At each toss, you can gain a dollar or lose a dollar with a probability $\frac{1}{2}$. What is the probability of eventually reaching $0$, ie, the probability of eventually going broke? This is $1$, no matter your initial wealth and we proved this result above, albeit a bit more tortuously than normal. In 2-d, I admit that I don't have a good intuition for this result. I can start muttering about topology and say that apparently the space of possible trajectories doesn't grow fast enough with time to compensate for how fast the particle explores the lattice, but the results still feels counterintuitive to me. If you have a convincing easy explanation, please let me know.
-\bigskip
 
 Let us now consider the problem with time. Actually, we can repeat the same steps following the starting recurrence relation, making time continuous as well and obtain:
 
@@ -73,7 +72,7 @@ $$
 \frac{\partial}{\partial t}\Pi(t, r)  = \frac{a^2}{\tau} \Delta_{\mathbf{r}}\Pi(t, r) = D \Delta_{\mathbf{r}}\Pi(t, r)
 $$
 
-$\tau$ plays a similar role to $a$ for time, indicating the timescale over which $\Pi(t, \mathbf{r})$ is constant. In this equation $\Pi(t, r)$ is a probability density, not a probability. The normalization and boundary conditions are:
+$\tau$ plays a similar role to $a$ for time, indicating the timescale over which $\Pi(t, \mathbf{r})$ is constant. $D$ is the diffusion constant, \textit{not} the dimension obviously. In this equation $\Pi(t, r)$ is a probability density, not a probability. The normalization and boundary conditions are:
 
 $$
 \eqalignno{
