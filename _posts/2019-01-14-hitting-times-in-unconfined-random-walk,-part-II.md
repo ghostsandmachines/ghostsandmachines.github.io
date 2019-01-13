@@ -4,7 +4,7 @@ title: "Hitting times in unconfined random walk, Part II"
 date: 2019-01-14
 ---
 
-The purpose of this post is to derive a differential equation directly for the hitting times distribution, skipping the steps devoted to solving the diffusion equation with various absorbing conditions. Along the way, we derive an expression for the probability of a particle hitting any specified target in the limit $t \rightarrow \infty$ . It turns out the behavior of this probability is highly dependent on the dimensionality of the space.
+The purpose of this post is to derive a differential equation directly for the hitting times distribution, skipping the steps devoted to solving the diffusion equation with various absorbing conditions. Along the way, we derive an expression for the probability of a particle hitting any specified target in the limit $t \rightarrow \infty$. It turns out the behavior of this probability is highly dependent on the dimensionality of the space.
 
 A differential equation for the distribution of hitting times
 -------------------------------------------------------------
@@ -59,7 +59,7 @@ with $r > a$ implicitly. If $D \leq 2 $ one obtains easily that $\Pi_{\infty}(r)
 
 $$
 \Pi_{\infty}(r) = \cases{
-0 & D \le 2 \cr
+0 & D\ge 2 \cr
 \left ( \frac{a}{r} \right)^{D-2} & D > 2 \cr
 }
 $$
@@ -72,7 +72,7 @@ $$
 \frac{\partial}{\partial t}\Pi(t, r)  = \frac{a^2}{\tau} \Delta_{\mathbf{r}}\Pi(t, r) = D \Delta_{\mathbf{r}}\Pi(t, r)
 $$
 
-$\tau$ plays a similar role to $a$ for time, indicating the timescale over which $\Pi(t, \mathbf{r})$ is constant. $D$ is the diffusion constant, \textit{not} the dimension obviously. In this equation $\Pi(t, r)$ is a probability density, not a probability. The normalization and boundary conditions are:
+$\tau$ plays a similar role to $a$ for time, indicating the timescale over which $\Pi(t, \mathbf{r})$ is constant. $D$ is the diffusion constant, *not* the dimension obviously. In this equation $\Pi(t, r)$ is a probability density, not a probability. The normalization and boundary conditions are:
 
 $$
 \eqalignno{
