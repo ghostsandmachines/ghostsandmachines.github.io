@@ -24,14 +24,6 @@ P(\mathbf{x}, t) &= 0 \quad \forall \mathbf{x} \in \partial \omega \cr
 }
 $$
 
-$$
-\frac{\partial}{\partial t}P(\mathbf{x}, t) = D \Delta_{\mathbf{x}}P(\mathbf{x}, t) 
-$$
-
-$$
-P(\mathbf{x}, t) =  0 \quad \forall \mathbf{x} \in \partial \omega
-$$
-
 with $\partial \omega$ being the surface of a specified volume $\omega$. This surface is an absorbing barrier: in this problem, whenever the particle touches the surface, it gets absorbed out of space in which it is moving about. At any time $t$ the particle is either in a position $\mathbf{x}$ out of the absorbing volume or it has been absorbed by the barrier:
 
 $$
@@ -51,19 +43,19 @@ Next, we are going to apply the recipe above to the classic one-dimensional abso
 In this problem the particle is confined to diffuse only on the positive $x$-axis and whenever it touches $x=0$ the particle is absorbed out of the picture. In mathematical terms, this is written as
 
 $$
-\cases{
-\frac{\partial}{\partial t}P(x, t)  = D \frac{\partial^2}{\partial x^2}P(x, t) \\
-P(0, t) = 0 \\
-P(x, 0) = \delta(x-x_0)
+\eqalignno{
+\frac{\partial}{\partial t}P(x, t)  &= D \frac{\partial^2}{\partial x^2}P(x, t) \\
+P(0, t) &= 0 \\
+P(x, 0) &= \delta(x-x_0)
 }
 $$
 
 We encode the initial condition with the use of dirac deltas
 
 $$
-\cases{
-\frac{\partial}{\partial t}P(x, t)  - D \frac{\partial^2}{\partial x^2}P(x, t) = \delta(t)\delta(x-x_0) \\
-P(0, t) = 0 
+\eqalignno{
+\frac{\partial}{\partial t}P(x, t)  - D \frac{\partial^2}{\partial x^2}P(x, t) &= \delta(t)\delta(x-x_0) \\
+P(0, t) &= 0 
 }
 $$
 
