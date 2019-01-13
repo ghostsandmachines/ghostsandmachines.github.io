@@ -31,7 +31,7 @@ $$
 \Delta_{\mathbf{x_0}} \Pi_{\infty}(\mathbf{x_0}, \mathbf{x})  = 0
 $$
 
-the operator $\Delta$ being the Laplacian. Now, as we are studying a simple random walk,  $\Pi_{\infty}(\mathbf{x_0}, \mathbf{x})$ must depend only on $| \mathbf{x_0} - \mathbf{x} |$ by homogeneity and isotropy. This should be pretty obvious physically, just imagine translating or rotating the whole system and ask yourself if anything changes. Once again, the presence of a wall ($L \neq \infty$) breaks such symmetries, although well-deep within the wall they will hold approximately. At any rate, we can write:
+<p>the operator $\Delta$ being the Laplacian. Now, as we are studying a simple random walk,  $\Pi_{\infty}(\mathbf{x_0}, \mathbf{x})$ must depend only on $| \mathbf{x_0} - \mathbf{x} |$ by homogeneity and isotropy. This should be pretty obvious physically, just imagine translating or rotating the whole system and ask yourself if anything changes. Once again, the presence of a wall ($L \neq \infty$) breaks such symmetries, although well-deep within the wall they will hold approximately. At any rate, we can write:</p>
 
 $$
 \Delta_{\mathbf{r}} \Pi_{\infty}(r)  = 0
