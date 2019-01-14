@@ -34,7 +34,7 @@ p {
     color: #333;
 }
 
-li {
+p li {
     font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
     font-size: 1.5em;
 }
