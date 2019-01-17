@@ -2,6 +2,7 @@
 layout: post
 title: "Hitting times and recurrence times"
 date: 2019-01-13
+tags: ["random-walk-series", "first-passage-times"]
 ---
 
 Let us define 
