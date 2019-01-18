@@ -6,11 +6,8 @@ title: Ghosts and Machines
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li>
-	    	<p>
-	    		<span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-	    		prova
-	    	</p>	
+	    <li>	
+	    	<span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <br/><br/> prova	
 	    </li>
 	  {% endfor %}
 	</ul>
