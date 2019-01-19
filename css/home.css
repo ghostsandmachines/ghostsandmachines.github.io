@@ -5,7 +5,6 @@ body {
 
 nav {
     margin-left:45em;
-    color:rgba(40, 0, 150, 0.9);
 }
 
 nav ul, footer ul {
@@ -21,7 +20,7 @@ nav ul li, footer ul li {
 
 a {
     text-decoration: none;
-    color: #999;
+    color:rgba(40, 0, 150, 0.9);
 }
 
 a:hover {
