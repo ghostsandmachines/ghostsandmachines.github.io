@@ -1,4 +1,5 @@
 body {
+    background: url("background.jpg") 100% auto no-repeat fixed center;
     margin: 60px auto;
     width: 70%;
 }
