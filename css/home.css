@@ -5,6 +5,7 @@ body {
 
 nav {
     margin-left:40em;
+    color:rgba(40, 0, 150, 0.9);
 }
 
 nav ul, footer ul {
