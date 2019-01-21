@@ -1,3 +1,4 @@
 name: ghostsandmachines
+title: Ghosts And Machines
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title 
