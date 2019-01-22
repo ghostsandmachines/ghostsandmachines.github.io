@@ -14,9 +14,9 @@ jekyll-archives:
     year: archive-year
     month: archive-month
     day: archive-day
-    tag: archive-tag
+    tag: archive-tags
   permalinks:
-    year: '/archives/year/:year/'
-    month: '/archives/month/:year-:month/'
-    day: '/archives/day/:year-:month-:day/'
-    tag: '/archives/tag/:name/'
+    year: '/archive/year/:year/'
+    month: '/archive/month/:year-:month/'
+    day: '/archive/day/:year-:month-:day/'
+    tag: '/archive/tags/:name/'
