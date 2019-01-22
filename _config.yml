@@ -4,3 +4,19 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title 
 plugins:
   - jekyll-archives
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - day
+    - tags
+  layout: 
+    year: archive-year
+    month: archive-month
+    day: archive-day
+    tag: archive-tag
+  permalinks:
+    year: '/archives/year/:year/'
+    month: '/archives/month/:year-:month/'
+    day: '/archives/day/:year-:month-:day/'
+    tag: '/archives/tag/:name/'
