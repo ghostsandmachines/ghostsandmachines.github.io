@@ -17,7 +17,7 @@ jekyll-archives:
     day: archive-day
     tag: archive-tags
   permalinks:
-    year: 'archive/year/:year/'
+    year: '/archive/year/:year/'
     month: '/archive/month/:year-:month/'
     day: '/archive/day/:year-:month-:day/'
     tag: '/archive/tags/:name/'
