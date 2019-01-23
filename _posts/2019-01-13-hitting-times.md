@@ -6,7 +6,15 @@ tags: ["random-walk-series", "first-passage-times"]
 ---
 
 <span>
-	<a href="{{site.baseurl}}">{{site.baseurl}}</a>
+	<a href="{{site.baseurl}}"> {{site.baseurl}} </a>
+</span>
+
+<span>
+	{{site.baseurl}}
+</span>
+
+<span>
+	{{site.url}}
 </span>
 
 Let us define 
