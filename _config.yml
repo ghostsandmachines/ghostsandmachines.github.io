@@ -1,0 +1,4 @@
+name: ghostsandmachines
+title: Ghosts And Machines
+markdown: kramdown
+exclude: ['README.md']
