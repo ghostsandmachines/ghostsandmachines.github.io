@@ -6,12 +6,9 @@ tags: ["random-walk-series", "first-passage-times"]
 ---
 
 <span>
-	{{site.baseurl}}
+	{{ page.date }}
 </span>
 
-<span>
-	{{site.url}} prova
-</span>
 
 Let us define 
 
