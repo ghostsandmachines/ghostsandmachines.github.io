@@ -1,7 +1,6 @@
 name: ghostsandmachines
 title: Ghosts And Machines
 markdown: kramdown
-baseurl: /ghostsandmachines.github.io
 permalink: /blog/:year/:month/:day/:title 
 plugins:
   - jekyll-archives
