@@ -5,11 +5,6 @@ date: 2019-01-13
 tags: ["random-walk-series", "first-passage-times"]
 ---
 
-<span>
-	{{ page.date }}
-</span>
-
-
 Let us define 
 
 $$
