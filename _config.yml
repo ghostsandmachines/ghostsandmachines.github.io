@@ -1,4 +1,5 @@
 name: ghostsandmachines
 title: Ghosts And Machines
 markdown: kramdown
+theme: minima
 exclude: ['README.md']
