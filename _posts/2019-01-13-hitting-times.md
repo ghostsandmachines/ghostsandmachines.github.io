@@ -5,6 +5,10 @@ date: 2019-01-13
 tags: ["random-walk-series", "first-passage-times"]
 ---
 
+<span>
+	<a href="{{site.baseurl}}">prova</a>
+</span>
+
 Let us define 
 
 $$
