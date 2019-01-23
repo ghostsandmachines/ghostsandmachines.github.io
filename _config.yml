@@ -1,5 +1,0 @@
-name: ghostsandmachines
-title: Ghosts And Machines
-markdown: kramdown
-exclude: ['README.md', comments.md']
-permalink: /blog/:year/:month/:day/:title 
