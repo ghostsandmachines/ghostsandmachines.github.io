@@ -2,7 +2,7 @@ name: ghostsandmachines
 email: "ghostsandmachines@yahoo.com"
 url: "https://ghostsandmachines.github.io"
 baseurl: "" 
-description: The best website ever made that will ever be made.
+description: The best website ever made that will ever be made. Unfortunately, it's currently unavailable.
 title: Ghosts And Machines
 markdown: kramdown
 theme: minima
@@ -15,3 +15,8 @@ exclude: ['README.md']
 #stop the build. weird, given that this is how many set it up, you should look into it.
 
 #baseurl would all that is after github.io, for instance /sitename. We want to use the url as the sitename, so no changes.
+
+#description works and no, it does not conflict with the description of the repository, this is the description of the website.
+#the problem seemed to be the author thing.
+
+
