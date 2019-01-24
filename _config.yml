@@ -1,6 +1,16 @@
 name: ghostsandmachines
 email: "ghostsandmachines@yahoo.com"
+url: "https://ghostsandmachines.github.io"
+baseurl: "" 
 title: Ghosts And Machines
 markdown: kramdown
 theme: minima
 exclude: ['README.md']
+
+#it looks like putting 
+#author: 
+#       name:
+#       email:
+#stop the build. weird, given that this is how many set it up, you should look into it.
+
+#baseurl would all that is after github.io, for instance /sitename. We want to use the url as the sitename, so no changes.
