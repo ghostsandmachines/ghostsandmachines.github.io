@@ -1,4 +1,6 @@
-name: ghostsandmachines
+author:
+  name: ghostsandmachines
+  email "ghostsandmachines@yahoo.com"
 title: Ghosts And Machines
 markdown: kramdown
 theme: minima
