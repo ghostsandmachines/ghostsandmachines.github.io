@@ -1,6 +1,6 @@
 name: ghostsandmachines
 title: Ghosts And Machines
 markdown: kramdown
-theme: minimal
+theme: jekyll-theme-minimal
 exclude: ['README.md']
 permalink: /index.html
