@@ -3,4 +3,3 @@ title: Ghosts And Machines
 markdown: kramdown
 theme: minima
 exclude: ['README.md']
-permalink: /index.html
