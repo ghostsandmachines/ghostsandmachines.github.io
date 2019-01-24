@@ -5,7 +5,6 @@ baseurl: ""
 description: The best website ever made that will ever be made. Unfortunately, it's currently unavailable.
 title: Ghosts And Machines
 markdown: kramdown
-theme: minima
 exclude: ['README.md']
 plugins:
   - jekyll-feed
