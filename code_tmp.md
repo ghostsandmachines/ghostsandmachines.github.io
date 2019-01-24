@@ -6,3 +6,15 @@
             {%- endif -%}
           {%- endfor -%}
         </div>
+
+
+<ul> 
+    <li><a class="page-link" href="/">Home</a></li>
+    <li><a class="page-link" href="/about">About</a></li>
+    <li><a class="page-link" href="/blog">Blog</a></li>
+</ul>        
+
+
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
