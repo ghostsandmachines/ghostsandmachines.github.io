@@ -7,7 +7,7 @@ title: Ghosts And Machines
 markdown: kramdown
 disqus: 
   shortname: ghostsandmachines
-exclude: ['README.md']
+exclude: ['README.md', 'code_tmp.md']
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -16,7 +16,7 @@ plugins:
 #author: 
 #       name:
 #       email:
-#stop the build. weird, given that this is how many set it up, you should look into it.
+#stopss the build. weird, given that this is how many set it up, you should look into it.
 
 #baseurl would all that is after github.io, for instance /sitename. We want to use the url as the sitename, so no changes.
 
