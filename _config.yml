@@ -2,6 +2,7 @@ name: ghostsandmachines
 email: "ghostsandmachines@yahoo.com"
 url: "https://ghostsandmachines.github.io"
 baseurl: "" 
+description: The best website ever made that will ever be made.
 title: Ghosts And Machines
 markdown: kramdown
 theme: minima
