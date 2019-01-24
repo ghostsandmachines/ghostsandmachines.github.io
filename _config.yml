@@ -8,3 +8,5 @@ title: Ghosts And Machines
 markdown: kramdown
 theme: minima
 exclude: ['README.md']
+plugins:
+  - "jekyll-github-metadata"
