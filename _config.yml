@@ -5,6 +5,7 @@ baseurl: ""
 description: The best website ever made that will ever be made. Unfortunately, it's currently unavailable.
 title: Ghosts And Machines
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
 disqus: 
   shortname: ghostsandmachines
 exclude: ['README.md', 'code_tmp.md']
