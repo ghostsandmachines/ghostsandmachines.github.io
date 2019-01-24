@@ -15,7 +15,7 @@ as the probability of reaching, or hitting, position $\mathbf{x}$ for the first 
 
 <div style="width:500; font-size:80%; text-align:center;">
 <video width="500" height="375" controls>
-  <source src="{{ site.url }}/blog/img/random_walk_video.mp4" type="video/mp4">
+  <source src="{{ site.url }}/img/random_walk_video.mp4" type="video/mp4">
 </video>
 <br>
 Two non-interacting particles random walking on a $20\times20$ lattice. Will the two particles ever meet and how long does it take for the meeting to occur? Investigating hitting times provides the answer to this question.
