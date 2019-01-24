@@ -1,8 +1,4 @@
-url: "https://ghostsandmachines.github.io"
-baseurl: ""
-author:
-  name: ghostsandmachines
-  email: "ghostsandmachines@yahoo.com"  
+name: ghostsandmachines
 title: Ghosts And Machines
 markdown: kramdown
 theme: minima
