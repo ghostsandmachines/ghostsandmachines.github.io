@@ -1,8 +1,7 @@
-name: ghostsandmachines
 url: "https://ghostsandmachines.github.io"
 baseurl: ""
 author:
-  name: Ghosts and Machines
+  name: ghostsandmachines
   email: "ghostsandmachines@yahoo.com"  
 title: Ghosts And Machines
 markdown: kramdown
