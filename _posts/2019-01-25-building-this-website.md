@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Building this website"
+date: 2019-01-15
+tags: website jekyll github-pages rant
+---
+
+Oof. It took longer than expected, a lot more swearing and a series of dramatic moments declaring all existence pointless and cursing everything that led me to building this website. I am a total newbie when it comes to HTML, markdown, jekyll and git and if anything my admiration toward proper web-designer has increased tenfolds after this. I tried to build the site from scratch at first, starting from [this link](<http://jmcglone.com/guides/github-pages/>) and going through few HTML tutorials. It's a very helpful experience for understanding some basic principles, but you better fork a [jekyll theme](<https://jekyllrb.com/docs/themes/>) and build on that after a while. In particular you avoid the headache that comes from trying to make your website fit any kind of screen, as jekyll does a pretty good job at that automatically. I am too lazy to make a proper tutorial, I am just going to make a sketch for newbies like me of all you have to do to have a website up and running fast. Just knowing exactly what to do should save you a lot of time and for every single step there's lots of documentation, what you don't find quite as much is all the steps linked together.
+
+So what is the fastest way of having a decent GitHub website up and running? With any website, you're going to have to deal with many files talking to one another, so I highly recommend learning to use Git on the command line. Takes a bit more time in the beginning, I suppose, but it's worth it. This is also useful when working with any repo on GitHub and in fact you should first test your understanding of Git with some repo other than your website. Including this step, here's the full list of all that you have to do:
+
+1. Learn Git on the command line. Spend some time on the [user-manual](<https://git-scm.com/docs/user-manual.html>) as it's actually very clear.
+1. Create a repo named username.github.io on GitHub. Then, clone your newly-created repo on your computer using your newly-acquired Git knowledge.
+1. Set up Jekyll using [this tutorial](<https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/>). In the tutorial, you create your website repo locally as well, if you did it on github.com, ignore the first step of the tutorial basically. Pay attention to the Gemfile concept especially.
+1. Next learn about the file [_config.yml](<https://help.github.com/articles/configuring-jekyll/>). I personally created one right from the start, following the tutorial in the first paragraph, it's very basic and you can take a look at it on [my repo on github](<https://github.com/ghostsandmachines/ghostsandmachines.github.io/blob/master/_config.yml>). More generally, I think it's very useful to look directly at example for pre-exisisting GitHub websites, as their repos are free for everyone to see and they clear up doubts you might have only reading stackexchange questions.
+1. Use a jekyll theme. You need to change your gemfile and your config.yml to do this ([here](<https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/#platform-linux>)) or you can literally copy and paste all the folders and files needed from the gem ([here](<https://jekyllrb.com/docs/themes/#converting-gem-based-themes-to-regular-themes>)). This is what I did as wanted to look at them in my repo and modify them.
+1. Create an index.html file in your repository. You need to specify the layout, then simply write a paragraph and your home page is ready to go. [This](<https://github.com/ghostsandmachines/ghostsandmachines.github.io/tree/basic_minima_build>) is what this minimal minima build looks like in your repo at this point if you simply added the jekyll theme to your config file (instead of copying and pasting the theme in your folder).
+
+
+After all of this, the fun part actually starts. Here knowing some HTML and the way one usually goes about designing websites helps, but it's pretty easy to get the hang of the basics I think. I'd like just to give a few pointers that might save you some time:
+
+* I used the home.html layout in the minima theme for my blog homepage. You can use it as your homepage of course, the point is that it's the layout containing a list of your posts.
+* to set up a favicon, ie, the little icon near the name of the website on your browser tabs, use this [www.favicomatic.com](<http://www.favicomatic.com/>) and the instructions therein.
+* to set up tags for your blog, use this [fantastic tutorial](<http://longqian.me/2017/02/09/github-jekyll-tag/>) by Long Qian. Don't waste time with jekyll-archive because that plugin is not supported on GitHub.
+* to enable typesetting math, use mathjax. It's easy to find out how to set it up on your blog, at any rate you can simply take my [mathjax.html](<https://github.com/ghostsandmachines/ghostsandmachines.github.io/blob/master/_includes/mathjax.html>), put it in your includes folder and then insert in the head of your pages. I am very satisfied with mathjax so far, I can write my latex file and basically basically copy and paste the content with very few modifications and you have beautiful math typeset for you.
+
+Finally, many thanks to the GitHub and StackExchange community, as usual they are a treasure of information.
