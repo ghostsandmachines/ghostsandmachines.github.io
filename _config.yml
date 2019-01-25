@@ -6,6 +6,8 @@ description: Doctor's bad, all his patients are sick.
 title: Ghosts And Machines
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+paginate: 5
+paginate_path: "/blog/page:num/"
 disqus: 
   shortname: ghostsandmachines
 exclude: ['README.md', 'code_tmp.md', 'tag_generator.py']

@@ -5,7 +5,7 @@ date: 2019-01-15
 tags: random-walk-series confined-brownian-motion diffusion-equation
 ---
 
-We are going to obtain the probability distribution for the position of a particle subject to brownian motion in a confined box. Let us consider the diffusion equation
+We are going to obtain the probability distribution for the position of a particle subject to brownian motion in a confined box. Let us consider the diffusion equation:
 
 $$
 \frac{\partial}{\partial t}P(x, t)  = D \frac{\partial^2}{\partial x^2}P(x, t)

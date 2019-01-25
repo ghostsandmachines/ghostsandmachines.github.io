@@ -5,7 +5,7 @@ date: 2019-01-13
 tags: random-walk-series first-passage-times
 ---
 
-Let us define 
+We are going to talk in full generality about hitting times in this post. Let us define: 
 
 $$
 \Pi_1(t, \mathbf{x_0}, \mathbf{x})
