@@ -10,7 +10,7 @@ layout: default
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
 
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for post in paginator.posts -%}
       <li>
         <!-- date -->
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -37,6 +37,27 @@ layout: default
       {%- endfor -%}
     </ul>
 
+  <!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      Newer
+    </a>
+  {% else %}
+    <span class="previous">Newer</span>
+  {% endif %}
+
+  <span> | </span>
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Older</a>
+  {% else %}
+    <span class="next ">Older</span>
+  {% endif %}
+</div>
+
+  <!-- RSS -->
+    <br>
     <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
