@@ -2,7 +2,7 @@
 layout: post
 title: "Life, random meetings and random walks"
 date: 2019-01-09
-tags: ["random-walk-series", "biology", "biological-physics", "verbose"]
+tags: random-walk-series biology biological-physics verbose
 ---
 
 It's not too much of a stretch, I believe, to say that microscopically we recognize what's alive by looking at sets of molecules binding and unbinding in a coordinated and concerted manner. Examples abound: RNA polymerase starts off transcription by binding to DNA; trascription factors control the transcriptional rate by binding to DNA sequences; ribosomes synthesize proteins by binding to mRNA; amminoacids bind to tRNA providing the building blocks during protein synthesis; extra-cellular molecular are sensed by receptor proteins kickstarting a signalling cascades thanks to which the cell adapts its metabolism and whatnot to the current environment and signalling cascades consist of binding and reaction events; proteins change function after some other protein binds to them; and so on and on, the list is endless really and the take-home message here is that any biological event is some kind of binding event microscopically.

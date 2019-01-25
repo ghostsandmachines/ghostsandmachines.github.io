@@ -2,7 +2,7 @@
 layout: post
 title: "Confined random walk, Part I, Diffusion Equation"
 date: 2019-01-15
-tags: ["random-walk-series", "confined-brownian-motion", "diffusion-equation"]
+tags: random-walk-series confined-brownian-motion diffusion-equation
 ---
 
 We are going to obtain the probability distribution for the position of a particle subject to brownian motion in a confined box. Let us consider the diffusion equation
@@ -88,4 +88,4 @@ P_n = \cases{
 }
 $$
 
-It turns out that there is no solution to this, meaning even with confinement there is no real equilibrium. You can check this yourself by trying to construct a solution from $P_{n+1} = 2 P_n - P_{n-1}$ satisfying all boundary conditions. Note especially that a uniform solution is not possible because once the particle hits the wall, it can only go back, so $P_1$ and $P_{L-1}$ are automatically more likely than the points at the wall. Note how this effect disappear in the continuum approximation, essentially because, I believe, the strip near the border where the probability spikes gets progressively thinner and thinner.
+It turns out that there is no solution to this, meaning even with confinement there is no real equilibrium. You can check this yourself by trying to construct a solution from $P_{n+1} = 2 P_n - P_{n-1}$ satisfying all boundary conditions. Note especially that a uniform solution is not possible because once the particle hits the wall, it can only go back, so $P_1$ and $P_{L-1}$ are automatically more likely than both the points right at the wall and those in the bulk. Note how this effect disappear in the continuum approximation, essentially because, I believe, the strip near the border where the probability spikes gets progressively thinner and thinner.

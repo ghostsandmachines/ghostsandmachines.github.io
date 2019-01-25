@@ -2,7 +2,7 @@
 layout: post
 title: "Hitting times in unconfined random walk, Part I"
 date: 2019-01-14
-tags: ["random-walk-series", "brownian-motion", "first-passage-times"]
+tags: random-walk-series brownian-motion first-passage-times
 ---
 
 Let us consider $\Pi(t, \mathbf{x_0}, \mathbf{x})$, the probability of hitting location $\mathbf{x}$ for the first time in a time $t$, starting from location $\mathbf{x_0}$. For now, we are thinking about these quantities as describing a discrete lattice. I want to talk about two ways of solving first-passage time problems. We'll start with the classic idea of absorbing surfaces and work out in detail a pedagogical example.
