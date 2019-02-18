@@ -25,7 +25,7 @@ $$
 x(t+dt) = x(t) + f(x(t))dt + \eta \sqrt{Ddt}
 $$
 
-It's not very clear why that would be particularly useful. Well, one of the cool things about writing down time evolution with derivatives instead of finite-differences is that all finite-difference schemes are perfectly identical for sufficiently small time-increments. Some of these schemes might be more computationally efficient, others give conceptual insight, at any rate we have different ways of looking at the same thing, which is always useful and the 'same thing' is represented by the equation with the derivatives.
+It's not very clear why that would be particularly useful. Well, one of the cool things about writing down time evolution with derivatives instead of finite-differences is that all finite-difference schemes are perfectly identical for sufficiently small time-increments. Some of these schemes might be more computationally efficient, others give conceptual insight, at any rate we have different ways of looking at the same thing, which is always useful, and the 'same thing' is represented by the equation with the derivatives.
 
 Is this the case for stochastic evolution? Does $\frac{dx}{dt} = A(x) + B(x) \xi(t)$ or some version of it encode an identical limit of many finite-difference schemes? Note in particular that in particular the finite difference equation we have derived is only one of these schemes. In fact, let us consider the following class of finite-difference schemes:
 
