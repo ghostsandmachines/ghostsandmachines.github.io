@@ -157,4 +157,4 @@ $$
 f(N_t) - f(N_0) = W_t
 $$
 
-and try to extract $N_t$ from there. You can apply this method for the noisy exponential growth above, for example. At any rate, looking for SDEs solutions seems a very sophisticated field and just looking at the [wiki page](<https://en.wikipedia.org/wiki/Stochastic_differential_equation>) of the number of concepts and techniques involved.
+and try to extract $N_t$ from there. You can apply this method for the noisy exponential growth above, for example. At any rate, looking for SDEs solutions seems a very sophisticated field and just looking at the [wiki page](<https://en.wikipedia.org/wiki/Stochastic_differential_equation>) gives an idea of the number of concepts and techniques involved.
