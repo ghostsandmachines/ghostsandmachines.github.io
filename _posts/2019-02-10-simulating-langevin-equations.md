@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Handling Langevin equations 101, Part I"
-tags: simulation discrete-continuous-map stochastic-equations
+title: "Handling Langevin equations 101, Part I: Simulating Trajectories"
+date: 2019-02-09
+tags: simulation langevin-series discrete-continuous-map stochastic-equations
 ---
 
 Continuous limits are cool because many discrete processes have the same continuous limit and therefore you don't have to bother with keeping track of all the differences in the models you consider. In fact more generally, it's the presence of some quantities going to infinity that washes over the many different details of different models. A similar logic underlies the discovery of universality, a staple of modern statistical physics, and in that case it's the correlation length that diverges and make several models exhibit identical behavior near criticality. We marvel at such phenomena, but in fact ultimately they aren't much different conceptually from your 2<sub>nd</sub> year exercises on sequences of functions: as $n \rightarrow \infty$, $f_n(x, p)$ with parameter $p$ will usually converge to few functions depending on the range of $p$, but importantly many parameters will have the same limit form $f(x)$ for all $p$ in a set $\Delta$. 
