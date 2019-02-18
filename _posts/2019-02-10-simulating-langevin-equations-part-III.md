@@ -47,7 +47,7 @@ $$
 \langle \Delta x \rangle = A(x) \delta + \alpha B'(x)\langle \Delta x \eta \rangle \sqrt{\delta}
 $$
 
-Now $\langle \Delta x \eta \rangle \sqrt{\delta}$ cannot be broken because of course the value of $\Delta x$ depends on the random value extracted with $\eta$. On the other hand if you re-insert in this 'correlation' the expression for $\Delta x$ given two equations ago and play around with the order of the terms, you will obtain $\langle \Delta x \eta \rangle \sqrt{\delta} = B(x) \delta + o(\delta)$. Therefore:
+Now $\langle \Delta x \eta \rangle \sqrt{\delta}$ cannot be split up because of course the value of $\Delta x$ depends on the random value extracted with $\eta$. On the other hand if you re-insert in this 'correlation' the expression for $\Delta x$ given two equations ago and play around with the order of the terms, you will obtain $\langle \Delta x \eta \rangle \sqrt{\delta} = B(x) \delta + o(\delta)$. Therefore:
 
 $$
 \langle \Delta x \rangle = A(x) \delta + \alpha B'(x)B(x) \delta
