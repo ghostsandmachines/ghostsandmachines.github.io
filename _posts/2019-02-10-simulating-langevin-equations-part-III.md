@@ -33,7 +33,7 @@ $$
 \frac{\Delta x}{\delta} = A(x+\alpha \Delta x)+B(x+\alpha \Delta x) \frac{\eta}{\sqrt{\delta}}
 $$
 
-with $\delta$ represing the finite time-increment. The parameter $\alpha$ determines the particular discretization-scheme. If $\alpha = 0$ we obtain the finite-difference equation we have used so far. Except for this specific choiche, we always have implicit equations for $\Delta x$. Are all of these schemes equivalent in the limit $dt \rightarrow 0$?
+with $\delta$ represing the finite time-increment. The parameter $\alpha \in [0, 1]$ determines the particular discretization-scheme. If $\alpha = 0$ we obtain the finite-difference equation we have used so far. Except for this specific choiche, we always have implicit equations for $\Delta x$. Are all of these schemes equivalent in the limit $dt \rightarrow 0$?
 
 To answer this question, let us consider the mean increment:
 
