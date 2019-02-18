@@ -67,4 +67,4 @@ $$
 dO(x(t)) = O'(x(t))dx(t) + \frac{O''(x(t))}{2} D dt
 $$
 
-for $dt$ small enough. This is essentially the celebrated Ito's lemma, modifying the usual rules of calculus when dealing with random variables. In the next post, I am going to write down stochastic equations in the usual symbolic notation, make a few comments on why they are both useful and ambiguous and clarify the differences and connections between the Stratonovich and the Ito conventions.
+for $dt$ small enough. This is essentially the celebrated Ito's lemma, modifying the usual rules of calculus when dealing with random variables. In the next posts, I am going to write down stochastic equations in the usual symbolic notation, make a few comments on why they are both useful and ambiguous and clarify the differences and connections between the Stratonovich and the Ito conventions.
