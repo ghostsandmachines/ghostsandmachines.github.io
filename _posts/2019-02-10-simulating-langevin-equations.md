@@ -52,13 +52,13 @@ $$
 $\Delta x_n$ is extracted from a gaussian distribution with variance $dtD$. It's easy to exploit the fact $N(\mu, \sigma^2) \approx \mu + \sigma N(0, 1)$ to rewrite the equation as
 
 $$
-x_{n+1} = x_n + \sqrt{dt}\sqrt{D}\eta
+x_{n+1} = x_n + \sqrt{dtD}\eta
 $$
 
 with $\eta$ extracted from a normal distribution $N(0, 1)$. It's clear that in this case $\langle x(t) \rangle$ is always equal to the initial position. To add a generic dynamic in the mean, also called the deterministic dynamics, simply consider:
 
 $$
-x_{n+1} = x_n + dt f(x_n) + \sqrt{dt}\sqrt{D}\eta
+x_{n+1} = x_n + dt f(x_n) + \sqrt{dtD}\eta
 $$
 
 This is the basic equation to have in mind before embarking on more complicated scenarios and it's the one you use when you want to simulate stochastic trajectories.
