@@ -2,7 +2,7 @@ name: ghostsandmachines
 email: "ghostsandmachines@yahoo.com"
 url: "https://ghostsandmachines.github.io"
 baseurl: "" 
-#description: Doctor's bad, all his patients are sick.
+description: ¨ ¨
 title: Ghosts And Machines
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
