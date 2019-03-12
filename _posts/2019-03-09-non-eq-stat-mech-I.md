@@ -81,7 +81,7 @@ $$
 therefore if the equation for time reversibility is satisfied, we find ourselves automatically in a stationary state. This stationary state is peculiar precisely because of the equation:
 
 $$
-w(x', x)P_eq(x) = w(x, x')P_eq(x')
+w(x', x)P_{eq}(x) = w(x, x')P_{eq}(x')
 $$
 
 which is the celebrate detailed-balance condition. Any stationary state satisfying this condition is called an equilibrium state, but as you can see the master's equation has in principle stationary solutions NOT satisfying detailed balance and in that case we will speak of non-equilibrium stationary states (NESS).
