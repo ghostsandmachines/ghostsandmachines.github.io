@@ -2,7 +2,7 @@ name: ghostsandmachines
 email: "ghostsandmachines@yahoo.com"
 url: "https://ghostsandmachines.github.io"
 baseurl: "" 
-description: Sex Panther
+description: A site about ghosts and machines.
 title: Ghosts And Machines
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
